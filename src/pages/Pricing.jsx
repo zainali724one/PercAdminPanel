@@ -145,9 +145,9 @@ const Pricing = () => {
             <h3 className="text-xl font-bold flex items-center gap-2">
               <TrendingUp className="text-green-400" /> Model Pricing Strategy
             </h3>
-            <div className="text-xs text-gray-400 mt-1">
+            {/* <div className="text-xs text-gray-400 mt-1">
               1 Point = ${USD_PER_POINT} USD (Fixed)
-            </div>
+            </div> */}
           </div>
           <div className="flex gap-3">
             <button
