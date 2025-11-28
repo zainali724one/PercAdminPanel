@@ -11,7 +11,8 @@ import Login from "./pages/Login";
 import Users from "./pages/Users";
 import Pricing from "./pages/Pricing";
 import Discounts from "./pages/Discounts"; // (Create simpler file similar to Users)
-import { AuthProvider, useAuth } from "./context/authContext";
+// import { AuthProvider, useAuth } from "./context/authContext";
+import { AuthProvider, useAuth } from "./context/AuthContext";
 import PurchasePlans from "./pages/PurchasePlans";
 
 const ProtectedRoute = ({ children }) => {
